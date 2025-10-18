@@ -1,0 +1,29 @@
+# Node modules (both client and server)
+node_modules
+
+# Build outputs
+dist
+build
+
+# Environment files (both sides)
+.env
+.env.local
+client/.env
+server/.env
+
+# System / editor files
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite / React
+client/.vite
+
+# Optional: if you use TypeScript
+*.tsbuildinfo
